@@ -26,7 +26,7 @@
        <input type="submit" name="load_data" value="Load Data" />
  </form>
  <?php
-    $host = "https://dicodinglatdbserver.database.windows.net";
+    $host = "tcp:dicodinglatdbserver.database.windows.net,1433";
     $user = "admindblat";
     $pass = "Wicak123";
     $db = "s-azure1";
